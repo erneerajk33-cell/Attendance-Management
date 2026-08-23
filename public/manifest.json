@@ -1,0 +1,35 @@
+{
+  "name": "Attendance Management - Online Attendance Management System",
+  "short_name": "Attendance",
+  "id": "com.skill.attendance.portal",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#1d4ed8",
+  "description": "Multi-Center Online Attendance Management System with Biometric Facial Scanning, GPS Geo-fencing, and Admin Governance.",
+  "categories": ["business", "productivity", "utilities"],
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='128' fill='%231d4ed8'/%3E%3Cpath d='M256 128c-44.2 0-80 35.8-80 80s35.8 80 80 80 80-35.8 80-80-35.8-80-80-80zm0 192c-64 0-160 32.2-160 96v32h320v-32c0-63.8-96-96-160-96z' fill='white'/%3E%3Ccircle cx='384' cy='160' r='32' fill='%2322c55e'/%3E%3Cpath d='M374 160l8 8 16-16' stroke='white' stroke-width='4' stroke-linecap='round' fill='none'/%3E%3C/svg%3E",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Punch Attendance",
+      "short_name": "Punch",
+      "description": "Quickly punch attendance with Biometric / GPS",
+      "url": "/?action=punch"
+    },
+    {
+      "name": "Admin Portal",
+      "short_name": "Admin",
+      "description": "Open Administrator Control Console",
+      "url": "/?action=admin"
+    }
+  ]
+}

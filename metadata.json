@@ -1,0 +1,11 @@
+{
+  "name": "Attendance Management",
+  "description": "Online Attendance Management System with geo-fencing radius verification, biometric & facial scanning, multi-center operations, staff profiles, calendar management, approvals, and report generation.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Android & Mobile Touch and Viewport Optimizations */
+@layer base {
+  html, body {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    overscroll-behavior-y: none;
+  }
+
+  button, input, select, textarea, a {
+    touch-action: manipulation;
+  }
+}
